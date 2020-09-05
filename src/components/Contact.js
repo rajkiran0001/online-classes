@@ -150,9 +150,11 @@ class Contact extends React.Component {
                     <strong style={{ color: "red" }}>Booked Time Slots:</strong><br />
                     <FullCalendar defaultView="dayGridMonth" plugins={[dayGridPlugin]}
                         events={[
-                            { title: 'reading', date: '2020-04-04T12:00:00' },
-                            { title: 'reading', date: '2020-04-05T09:00:00' },
-                            { title: 'speaking', date: '2020-04-05T17:00:00' }
+                            { title: 'reading', date: '2020-09-04T19:00:00' },
+                            { title: 'speaking', date: '2020-09-05T09:00:00' },
+                            { title: 'speaking', date: '2020-09-05T17:00:00' },
+                            { title: 'reading', date: '2020-09-05T19:00:00' },
+                            { title: 'speaking', date: '2020-09-06T07:00:00' },
                         ]}
                     />
                 </div>
