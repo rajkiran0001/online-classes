@@ -14,6 +14,11 @@ class Navbar extends Component {
                         <img src={logo} alt="store" className="navbar-brand" />
                     </Link>
                     <ul className="navbar-nav align-items-center">
+                    <li className="nav-item ml-5">
+                            <Link to="/" className="nav-link">
+                                LEARN GERMAN FREELY (LGF)
+                             </Link>
+                        </li>
                         <li className="nav-item ml-5">
                             <Link to="/" className="nav-link">
                                 courses
@@ -38,7 +43,6 @@ class Navbar extends Component {
 <img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
 </form>
                         </li>
-
                     </ul>
                     {/* <Link to="/cart" className="ml-auto">
                     <ButtonContainer>

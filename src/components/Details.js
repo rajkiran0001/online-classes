@@ -9,7 +9,7 @@ class Details extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                    const { id, company, img, info, price, title, inCart } = value.detailProduct;
+                    const { company, img, info, price, title } = value.detailProduct;
                     return (
                         <div className="container py-5">
                             {/* titile */}
@@ -33,7 +33,7 @@ class Details extends Component {
                                         <Link to="/">
                                             <ButtonContainer>back to courses</ButtonContainer>
                                         </Link>
-                                        <ButtonContainer cart disabled={inCart ? true : false}
+                                        {/* <ButtonContainer cart disabled={inCart ? true : false}
                                             onClick={() => {
                                                 value.addToCart(id)
                                                 value.openModal(id)
@@ -41,7 +41,7 @@ class Details extends Component {
                                             }}
                                         >
                                             {inCart ? "inCart" : "add to Cart"}
-                                        </ButtonContainer>
+                                        </ButtonContainer> */}
 
                                     </div>
                                 </div>

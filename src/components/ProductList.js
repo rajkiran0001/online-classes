@@ -23,15 +23,10 @@ class ProductList extends Component {
                             </ProductConsumer>
                         </div><br/>
                         <div>
-                        {/* <div style={{float: 'left'}}> */}
                         <b style={{color: "#ff0000"}}>Please Fill in the Registration Form for Booking Appointments, We will send you the conformation</b>
-                        {/* <b style={{color: "#006600"}}>Registration Form:</b> */}
                         <ContactForm/>
                         <br/>
-                        {/* </div> */}
-                        {/* <div style={{float: 'right', maxWidth:680}}> */}
-                        {/* <Calander/> */}
-                        {/* </div> */}
+
                         </div>
                     </div>
                 </div>

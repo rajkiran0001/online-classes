@@ -16,7 +16,8 @@ export default class DemoApp extends React.Component {
         { title: 'reading', date: '2020-09-04T19:00:00' },
         { title: 'speaking', date: '2020-09-05T09:00:00' },
         { title: 'speaking', date: '2020-09-05T17:00:00' },
-        { title: 'reading', date: '2020-09-05T19:00:00' }
+        { title: 'reading', date: '2020-09-05T19:00:00' },
+        { title: 'speaking', date: '2020-09-06T07:00:00' },
 
       ]}
  />
