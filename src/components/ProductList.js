@@ -3,7 +3,6 @@ import Product from "./Product"
 import Title from "./Title"
 import { ProductConsumer } from "../context"
 import ContactForm from './ContactForm';
-import Event from './Event';
 // import Calander from './Calander';
 
 class ProductList extends Component {

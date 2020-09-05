@@ -1,6 +1,5 @@
 // import React...
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'fullcalendar/dist/fullcalendar.min.css'
 import 'fullcalendar-scheduler/dist/scheduler.min.css'
  
